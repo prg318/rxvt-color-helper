@@ -6,7 +6,7 @@
 #
 # Prints each rxvt color code in the color that its currently
 #  configured to.  This can be of assistance while configuring
-#  rxvt colors by hand.  You may use gcolor2 as well:
+#  rxvt colors by hand.  You may want to use gcolor2 as well:
 #  - http://gcolor2.sourceforge.net/
 #
 
