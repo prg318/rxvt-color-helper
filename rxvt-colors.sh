@@ -6,8 +6,11 @@
 #
 # Prints each rxvt color code in the color that its currently
 #  configured to.  This can be of assistance while configuring
-#  rxvt colors by hand.  You may use gcolor2 as well:
+#  rxvt colors by hand.  You may want to use gcolor2 as well:
 #  - http://gcolor2.sourceforge.net/
+#
+# See the "COLOURS AND GRAPHICS" section of the urxvt/rxvt manual
+#  more details on configuring rxvt.
 #
 
 r=0
