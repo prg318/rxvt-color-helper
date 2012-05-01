@@ -13,13 +13,17 @@
 #  more details on configuring rxvt.
 #
 
+names=('black' 'red' 'green' 'yellow' 'blue' 'magenta' 'cyan' \
+	'white' 'bright black' 'bright red' 'bright green' 'bright yellow' \
+	'bright blue' 'bright magenta' 'bright cyan' 'bright white')
+
 r=0
 for i in `seq 0 1`
 do
 	for j in `seq 30 37`
 	do
-		echo -e '\e['$i';'$j'm'
-		echo urxvt*color$r
+		echo -n -e '\e['$i';'$j'm'urxvt*color$r - 
+		echo " ${names[$r]}"
 		r=`expr $r + 1`
 	done
 done
