@@ -9,6 +9,9 @@
 #  rxvt colors by hand.  You may want to use gcolor2 as well:
 #  - http://gcolor2.sourceforge.net/
 #
+# See the "COLOURS AND GRAPHICS" section of the urxvt/rxvt manual
+#  more details on configuring rxvt.
+#
 
 r=0
 for i in `seq 0 1`
