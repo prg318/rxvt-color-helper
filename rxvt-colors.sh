@@ -20,3 +20,4 @@ do
 		r=`expr $r + 1`
 	done
 done
+echo -e '\e[0m' # reset text color
